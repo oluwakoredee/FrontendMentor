@@ -1,0 +1,81 @@
+/* h1{
+    background-color: skyblue;
+}
+
+@media (min-width: 320px) and (max-width: 768px){
+    h1{
+        background-color: navy;
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 597px) and (max-width: 1000px){
+    h1{
+        background-color: blue;
+        font-size: 30px;
+    }
+} */
+
+body{
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+}
+.left{
+    overflow: hidden;
+}
+main{
+    display: flex;
+}
+.right{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.gradient{
+    height: 100%;
+}
+form{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 22rem;
+    gap: 1rem;
+}
+.label{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.label2{
+    display: flex;
+    justify-content: space-between;
+}
+.button{
+    background-color: hsl(278, 68%, 11%);
+    color: white;
+    border-radius: 7px;
+    height: 30px;
+    padding: 1rem 1rem 2rem 1rem;
+    border: none;
+}
+input{
+    border: solid;
+    border-radius: 7px;
+    height: 30px;
+    padding-left: 10px;
+}
+.exp{
+    display: flex;
+    width: 40px;
+}
+span{
+    display: flex;
+    gap: 10px;
+}
